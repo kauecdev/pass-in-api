@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: pass-in
+  datasource:
+    driver-class-name: org.hsqldb.jdbc.JDBCDriver
+    url: jdbc:hsqldb:file:src/main/resources/database/myDb;shutdown=true
+
