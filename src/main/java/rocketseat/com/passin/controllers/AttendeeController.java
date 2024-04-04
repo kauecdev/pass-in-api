@@ -16,12 +16,14 @@ public class AttendeeController {
 
     private final AttendeeService attendeeService;
 
+    @CrossOrigin
     @GetMapping("/{attendeeId}/badge")
     public ResponseEntity<AttendeeBadgeResponseDTO> getAttendeeBadge(@PathVariable String attendeeId, UriComponentsBuilder uriComponentsBuilder) {
         AttendeeBadgeResponseDTO response = this.attendeeService.getAttendeeBadge(attendeeId, uriComponentsBuilder);
         return ResponseEntity.ok(response);
     }
 
+    @CrossOrigin
     @PostMapping("/{attendeeId}/check-in")
     public ResponseEntity registerCheckIn(@PathVariable String attendeeId, UriComponentsBuilder uriComponentsBuilder) {
         this.attendeeService.checkInAttendee(attendeeId);

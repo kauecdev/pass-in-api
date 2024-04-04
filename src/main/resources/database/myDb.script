@@ -29,7 +29,7 @@ SET FILES NIO TRUE
 SET FILES NIO SIZE 256
 SET FILES LOG TRUE
 SET FILES LOG SIZE 50
-SET FILES CHECK 1198
+SET FILES CHECK 4458
 SET DATABASE COLLATION "SQL_TEXT" PAD SPACE
 CREATE USER SA PASSWORD DIGEST 'd41d8cd98f00b204e9800998ecf8427e'
 ALTER USER SA SET LOCAL TRUE
@@ -60,6 +60,16 @@ INSERT INTO "flyway_schema_history" VALUES(3,'3','create-table-checkins','SQL','
 INSERT INTO "flyway_schema_history" VALUES(4,'4','create-indexes','SQL','V4__create-indexes.sql',553901455,'SA','2024-04-01 20:44:49.094856',1,'1')
 INSERT INTO EVENTS VALUES('38d624ec-522b-475a-a586-ce3cd3bd82b3','Rocketseat NLW 2.0','Aprenda Java de forma gratuita!','rocketseat-nlw-20',1)
 INSERT INTO EVENTS VALUES('fa629440-f5bf-4c3e-9a38-fb705fa7869e','Rocketseat NLW','Aprenda Java de forma gratuita!','rocketseat-nlw',500)
+INSERT INTO ATTENDEES VALUES('05cdf0ba-9ecc-4456-ae5f-7c63b72dbfe9','Kau\u00ea Cavalcante 11.0','test@mail.com11','fa629440-f5bf-4c3e-9a38-fb705fa7869e','2024-04-04 17:16:04.548804')
 INSERT INTO ATTENDEES VALUES('0893aa85-cb9c-4902-aafe-612b5c1ff281','Kau\u00ea Cavalcante','test@mail.com','38d624ec-522b-475a-a586-ce3cd3bd82b3','2024-04-03 15:46:03.181430')
+INSERT INTO ATTENDEES VALUES('25330a24-f1d2-482b-bf82-413c85c7cb6c','Kau\u00ea Cavalcante 10.0','test@mail.com10','fa629440-f5bf-4c3e-9a38-fb705fa7869e','2024-04-04 17:15:42.890239')
+INSERT INTO ATTENDEES VALUES('4bfe60de-b28e-4785-a36e-9314833c43f7','Kau\u00ea Cavalcante 5.0','test@mail.com5','fa629440-f5bf-4c3e-9a38-fb705fa7869e','2024-04-04 17:15:18.633676')
 INSERT INTO ATTENDEES VALUES('6a1c0344-26ea-4544-8ed9-4c0cef1bebb8','Kau\u00ea Cavalcante','test@mail.com','fa629440-f5bf-4c3e-9a38-fb705fa7869e','2024-04-03 15:43:49.082121')
+INSERT INTO ATTENDEES VALUES('8f2515fb-e31b-4447-8ef5-2e51769cb30e','Kau\u00ea Cavalcante 4.0','test@mail.com4','fa629440-f5bf-4c3e-9a38-fb705fa7869e','2024-04-04 17:15:14.713533')
+INSERT INTO ATTENDEES VALUES('a737a9e6-c504-4e48-b3cd-cf226806764a','Kau\u00ea Cavalcante 9.0','test@mail.com9','fa629440-f5bf-4c3e-9a38-fb705fa7869e','2024-04-04 17:15:36.756174')
+INSERT INTO ATTENDEES VALUES('a7ddc4e9-c4cb-42b8-a725-83c0ad6d44e8','Kau\u00ea Cavalcante 8.0','test@mail.com8','fa629440-f5bf-4c3e-9a38-fb705fa7869e','2024-04-04 17:15:32.997464')
+INSERT INTO ATTENDEES VALUES('d2fab22c-3d7e-4090-be38-d4bb1572914d','Kau\u00ea Cavalcante 3.0','test@mail.com3','fa629440-f5bf-4c3e-9a38-fb705fa7869e','2024-04-04 17:15:09.984222')
+INSERT INTO ATTENDEES VALUES('dcc429a2-969c-4e7e-8da9-e27ff16d7728','Kau\u00ea Cavalcante 6.0','test@mail.com6','fa629440-f5bf-4c3e-9a38-fb705fa7869e','2024-04-04 17:15:23.890435')
+INSERT INTO ATTENDEES VALUES('f23e657f-be4a-4ce3-899d-355091f7978a','Kau\u00ea Cavalcante 7.0','test@mail.com7','fa629440-f5bf-4c3e-9a38-fb705fa7869e','2024-04-04 17:15:27.894527')
+INSERT INTO ATTENDEES VALUES('fd2c7a54-dc4d-4a4e-8760-b8ede72e36f5','Kau\u00ea Cavalcante 2.0','test@mail.com2','fa629440-f5bf-4c3e-9a38-fb705fa7869e','2024-04-04 17:15:03.068716')
 INSERT INTO CHECK_INS VALUES(0,'2024-04-03 16:03:29.223594','6a1c0344-26ea-4544-8ed9-4c0cef1bebb8')
